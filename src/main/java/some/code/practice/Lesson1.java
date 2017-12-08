@@ -9,8 +9,10 @@ public class Lesson1 {
      * @return true if hairColour = "Blonde" and eyeColour = "Blue"
      */
     public boolean hasBlondeHairAndBlueEyes(String hairColour, String eyeColour){
-        //
-        return false;
+        if (hairColour == "Blonde" && eyeColour == "Blue" ){
+            return true;
+        }
+        else return false;
     }
 
 }
