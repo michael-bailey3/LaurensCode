@@ -5,6 +5,7 @@ import java.util.List;
 public class Lesson1 {
 
     /**
+     * To learn conditional checking (e.g. if statement)
      * Method to check for eye colour and hair colour
      * @param hairColour
      * @param eyeColour
@@ -16,6 +17,7 @@ public class Lesson1 {
     }
 
     /**
+     * To learn loop statements ( e.g. for or while loops)
      * Method to check each finger and see if it has a ring on it.
      * @param fingers
      * @return true if any value in the list of fingers contains "Ring"

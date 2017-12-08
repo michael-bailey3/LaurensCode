@@ -38,4 +38,33 @@ public class TestLesson1 {
 
     }
 
+    @Test
+    public void testHasRingOnFinger_WithOneFinger_WithRing() {
+
+    }
+
+    @Test
+    public void testHasRingOnFinger_WithOneFinger_WithoutRing() {
+
+    }
+
+    @Test
+    public void testHasRingOnFinger_WithManyFingers_WithRing() {
+
+    }
+
+    @Test
+    public void testHasRingOnFinger_WithManyFingers_WithoutRing() {
+
+    }
+
+    @Test
+    public void testHasRingOnFinger_WithEmptyFingersListParam() {
+
+    }
+
+    @Test
+    public void testHasRingOnFinger_WithNullFingersListParam() {
+
+    }
 }
