@@ -16,7 +16,6 @@ public class TestLesson1 {
 
     }
 
-
     @Test
     public void testBlondeHairAndBlueEyes_withWrongEyeColour() {
 
