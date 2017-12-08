@@ -20,7 +20,6 @@ public class TestLesson1 {
         assertEquals(false, result);
     }
 
-
     @Test
     public void testBlondeHairAndBlueEyes_withWrongEyeColour() {
         boolean result = lesson1.hasBlondeHairAndBlueEyes("Blonde", "Brown");
@@ -47,4 +46,33 @@ public class TestLesson1 {
         assertEquals(false, result);
     }
 
+    @Test
+    public void testHasRingOnFinger_WithOneFinger_WithRing() {
+
+    }
+
+    @Test
+    public void testHasRingOnFinger_WithOneFinger_WithoutRing() {
+
+    }
+
+    @Test
+    public void testHasRingOnFinger_WithManyFingers_WithRing() {
+
+    }
+
+    @Test
+    public void testHasRingOnFinger_WithManyFingers_WithoutRing() {
+
+    }
+
+    @Test
+    public void testHasRingOnFinger_WithEmptyFingersListParam() {
+
+    }
+
+    @Test
+    public void testHasRingOnFinger_WithNullFingersListParam() {
+
+    }
 }
