@@ -24,8 +24,14 @@ public class Lesson1 {
      * @param fingers
      * @return true if any value in the list of fingers contains "Ring"
      */
-    public boolean hasRingOnFinger(List<String> fingers){
-        return false;
-    }
+    public boolean hasRingOnFinger(List<String> fingers) {
+        if (fingers != null) {
 
+            for (String finger : fingers) {
+                if (finger == "Ring") {
+                    return true;
+                }
+            } }
+            return false;
+        }
 }

@@ -2,6 +2,9 @@ package some.code.practice;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 public class TestLesson1 {
@@ -48,31 +51,52 @@ public class TestLesson1 {
 
     @Test
     public void testHasRingOnFinger_WithOneFinger_WithRing() {
+        List<String> fingers = new ArrayList<String>();
+        fingers.add("Ring");
+        boolean result = lesson1.hasRingOnFinger(fingers);
+        assertEquals(true, result);
 
     }
 
     @Test
     public void testHasRingOnFinger_WithOneFinger_WithoutRing() {
+        List<String> fingers = new ArrayList<String>();
+        fingers.add("NoRing");
+        boolean result = lesson1.hasRingOnFinger(fingers);
+        assertEquals(false, result);
 
     }
 
     @Test
     public void testHasRingOnFinger_WithManyFingers_WithRing() {
-
+        List<String> fingers = new ArrayList<String>();
+        fingers.add("Ring");
+        fingers.add("NoRing");
+        boolean result = lesson1.hasRingOnFinger(fingers);
+        assertEquals(true, result);
     }
 
     @Test
     public void testHasRingOnFinger_WithManyFingers_WithoutRing() {
-
+        List<String> fingers = new ArrayList<String>();
+        fingers.add("NoRing");
+        fingers.add("NoRing");
+        boolean result = lesson1.hasRingOnFinger(fingers);
+        assertEquals(false, result);
     }
 
     @Test
     public void testHasRingOnFinger_WithEmptyFingersListParam() {
-
+        List<String> fingers = new ArrayList<String>();
+        fingers.add("");
+        fingers.add("");
+        boolean result = lesson1.hasRingOnFinger(fingers);
+        assertEquals(false, result);
     }
 
     @Test
     public void testHasRingOnFinger_WithNullFingersListParam() {
-
+        boolean result = lesson1.hasRingOnFinger(null);
+        assertEquals(false, result);
     }
 }
