@@ -21,12 +21,10 @@ public class TestLesson1 {
 
     }
 
-
     @Test
     public void testBlondeHairAndBlueEyes_withBothWrongInputs() {
 
     }
-
 
     @Test
     public void testBlondeHairAndBlueEyes_withEmptyInputs() {

@@ -2,7 +2,12 @@ package some.code.practice;
 
 import java.util.List;
 
+/**
+ * Lern about simple conditional statements and loops
+ */
 public class Lesson1 {
+
+
 
     /**
      * To learn conditional checking (e.g. if statement)
